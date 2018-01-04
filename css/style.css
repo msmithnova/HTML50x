@@ -1,0 +1,21 @@
+html, body {
+    font-size: 24px;
+}
+h1 {
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+}
+nav {
+    background-color: lightgreen;
+    width: 13rem;
+}
+article {
+    margin-left: 3rem;
+}
+img {
+    width: 400px;
+}
+li {
+    margin-left: 1rem;
+}
