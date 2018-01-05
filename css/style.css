@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-size: 24px;
     margin: 0;
 }
@@ -11,9 +12,20 @@ h1 {
 nav {
     background-color: lightgreen;
     width: 13rem;
+    padding-left: 25px;
+}
+nav h2 {
+    margin-bottom: 0;
+}
+nav h2 span {
+    font-size: 0.5rem;
 }
 nav ul {
-    padding-left: 25px;
+    margin-top: 0;
+    display: none;
+}
+nav:hover > ul {
+    display: block;
 }
 article {
     margin-left: 3rem;
@@ -25,4 +37,27 @@ img {
 }
 li {
     margin-left: 1rem;
+}
+table {
+    margin-left: 1.5rem;
+    border-collapse: collapse;
+}
+table,
+th,
+td {
+    border: 2px solid rgb(92, 40, 40);
+}
+th,
+td {
+    padding: 0.5rem;
+}
+thead tr {
+    background-color: saddlebrown;
+    color: antiquewhite;
+}
+tbody tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+tbody tr:nth-child(even) {
+    background-color: burlywood;
 }
