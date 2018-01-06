@@ -7,15 +7,21 @@ h1 {
     background-color: seagreen;
     color: white;
     text-align: center;
-    margin: 0 ;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-width: 20rem;
 }
 nav {
     background-color: lightgreen;
     width: 13rem;
     padding-left: 25px;
+    position: fixed;
+    top: 2.3rem;
 }
 nav h2 {
-    margin-bottom: 0;
+    margin: 0;
 }
 nav h2 span {
     font-size: 0.5rem;
@@ -28,7 +34,10 @@ nav:hover > ul {
     display: block;
 }
 article {
-    margin-left: 3rem;
+    min-width: 20rem;
+    max-width: 40rem;
+    margin: auto;
+    margin-top: 4rem;
 }
 img {
     width: 400px;
